@@ -30,6 +30,44 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
 
     <ul class="flex-1 overflow-y-auto p-6 flex flex-col gap-6">
         
+        <li class="flex gap-4 items-start">
+            <img src="@file:./img-gen/aura-02.jpg" alt="Product photo" class="w-20 shrink-0 aspect-[3/4] object-cover bg-stone-900"/>
+            <div class="flex-1 flex flex-col">
+                <div class="flex justify-between items-start">
+                    <h3 class="text-sm uppercase tracking-widest font-normal">Obsidian Trench Coat</h3>
+                    <button type="button" aria-label="Remove" class="text-stone-400 hover:text-stone-50 transition-colors duration-300"><iconify-icon icon="solar:trash-bin-trash-linear" width="16"></iconify-icon></button>
+                </div>
+                <p class="text-xs text-stone-400 mt-1">Size: M</p>
+                <div class="mt-4 flex justify-between items-center text-sm">
+                    <div class="flex items-center border border-white/20">
+                        <button type="button" aria-label="Decrease quantity" class="px-3 py-1 text-stone-400 hover:text-stone-50 transition-colors duration-300">-</button>
+                        <span class="px-2">1</span>
+                        <button type="button" aria-label="Increase quantity" class="px-3 py-1 text-stone-400 hover:text-stone-50 transition-colors duration-300">+</button>
+                    </div>
+                    <span>$1,250</span>
+                </div>
+            </div>
+        </li>
+        
+        <li class="flex gap-4 items-start">
+            <img src="@file:./img-gen/aura-03.jpg" alt="Product photo" class="w-20 shrink-0 aspect-[3/4] object-cover bg-stone-900"/>
+            <div class="flex-1 flex flex-col">
+                <div class="flex justify-between items-start">
+                    <h3 class="text-sm uppercase tracking-widest font-normal">Silk Blend Trousers</h3>
+                    <button type="button" aria-label="Remove" class="text-stone-400 hover:text-stone-50 transition-colors duration-300"><iconify-icon icon="solar:trash-bin-trash-linear" width="16"></iconify-icon></button>
+                </div>
+                <p class="text-xs text-stone-400 mt-1">Size: 32</p>
+                <div class="mt-4 flex justify-between items-center text-sm">
+                    <div class="flex items-center border border-white/20">
+                        <button type="button" aria-label="Decrease quantity" class="px-3 py-1 text-stone-400 hover:text-stone-50 transition-colors duration-300">-</button>
+                        <span class="px-2">1</span>
+                        <button type="button" aria-label="Increase quantity" class="px-3 py-1 text-stone-400 hover:text-stone-50 transition-colors duration-300">+</button>
+                    </div>
+                    <span>$680</span>
+                </div>
+            </div>
+        </li>
+        
     </ul>
 
     <div class="p-6 border-t border-white/10">
@@ -57,8 +95,24 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
             </button>
             <ul class="hidden lg:flex gap-8 text-xs uppercase tracking-extreme font-light text-stone-300">
                 
+                <li><a href="./" class="hover:text-stone-50 transition-colors">Home</a></li>
+                
+                <li><a href="./page" class="hover:text-stone-50 transition-colors">About</a></li>
+                
+                <li><a href="./blog" class="hover:text-stone-50 transition-colors">Blog</a></li>
+                
+                <li><a href="./#contact" class="hover:text-stone-50 transition-colors">Contact</a></li>
+                
             </ul>
             <ul id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 w-full flex-col gap-6 px-6 py-8 bg-ink/95 border-b border-white/10 text-xs uppercase tracking-extreme font-light text-stone-300">
+                
+                <li><a href="./" class="hover:text-stone-50 transition-colors">Home</a></li>
+                
+                <li><a href="./page" class="hover:text-stone-50 transition-colors">About</a></li>
+                
+                <li><a href="./blog" class="hover:text-stone-50 transition-colors">Blog</a></li>
+                
+                <li><a href="./#contact" class="hover:text-stone-50 transition-colors">Contact</a></li>
                 
             </ul>
         </nav>
@@ -320,6 +374,32 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
         </div>
 
         
+        <nav aria-label="Explore" class="flex flex-col gap-6">
+            <h3 class="text-stone-50 uppercase tracking-widest text-xs font-medium">Explore</h3>
+            
+            <a href="./#collection" class="hover:text-stone-50 transition-colors w-max">Latest Collection</a>
+            
+            <a href="./#manifesto" class="hover:text-stone-50 transition-colors w-max">The Manifesto</a>
+            
+            <a href="./blog" class="hover:text-stone-50 transition-colors w-max">Journal</a>
+            
+            <a href="./#contact" class="hover:text-stone-50 transition-colors w-max">Store Locator</a>
+            
+        </nav>
+        
+        <nav aria-label="Client Services" class="flex flex-col gap-6">
+            <h3 class="text-stone-50 uppercase tracking-widest text-xs font-medium">Client Services</h3>
+            
+            <a href="./#contact" class="hover:text-stone-50 transition-colors w-max">Contact Us</a>
+            
+            <a href="./page" class="hover:text-stone-50 transition-colors w-max">Shipping &amp; Returns</a>
+            
+            <a href="./page" class="hover:text-stone-50 transition-colors w-max">FAQ</a>
+            
+            <a href="./page" class="hover:text-stone-50 transition-colors w-max">Care Guide</a>
+            
+        </nav>
+        
 
         <div class="flex flex-col gap-6">
             <h3 class="text-stone-50 uppercase tracking-widest text-xs font-medium">Connect</h3>
@@ -340,6 +420,10 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
     <div class="max-w-[120rem] mx-auto flex flex-col sm:flex-row justify-between items-center pt-8 border-t border-white/10 text-xs text-stone-400 font-light gap-4">
         <p>© 2024 AURA Modern Luxury. All rights reserved.</p>
         <div class="flex gap-6 uppercase tracking-widest">
+            
+            <a href="./page" class="hover:text-stone-50 transition-colors">Privacy</a>
+            
+            <a href="./page" class="hover:text-stone-50 transition-colors">Terms</a>
             
         </div>
     </div>
